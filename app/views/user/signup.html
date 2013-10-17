@@ -1,0 +1,25 @@
+<form action="/user" method="post">
+
+    <div class="row">
+        <label for="signup-name" class="inline">
+        Display Name
+        </label>
+        <input id="signup-name" type="text" name="name" placeholder="John Doe" value="{signinFields.name}">
+    </div>
+    <div class="row">
+        <label for="signup-email" class="inline">
+        Email
+        </label>
+        <input id="signup-email" type="email" name="email" placeholder='email' value="{signinFields.email}">
+    </div>
+    <div class="row">
+        <label for="signup-password" class="inline">
+        Password
+        </label>
+        <input id="signup-password" type="password" name="password" placeholder='******'>
+    </div>
+    <div class="row">
+        <button type="submit">Signup</button>
+    </div>
+  
+</form>

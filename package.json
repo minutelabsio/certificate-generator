@@ -1,0 +1,53 @@
+{
+  "name": "MPCertGen",
+  "description": "Certificate Generator",
+  "author": "Jasper Palfree <jasper@wellcaffeinated.net>",
+  "contributors": [
+    {
+      "name": "Jasper Palfree",
+      "email": "jasper@wellcaffeinated.net"
+    }
+  ],
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "private": true,
+  "dependencies": {
+    "grunt": "latest",
+    "grunt-bg-shell": "latest",
+    "grunt-img": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-requirejs": "latest",
+    "grunt-contrib-compass": "latest",
+    "grunt-lodash": "latest",
+
+    "when": "latest",
+    "lodash": "latest",
+    "async": "latest",
+    "express": "3.x",
+    "connect": "latest",
+    "connect-flash": "latest",
+    "connect-redis": "latest",
+    "consolidate": "latest",
+    "dustjs-linkedin": "latest",
+    "dustjs-helpers": "latest",
+    "moment": "latest",
+    "mongoose": "latest",
+    "redis-url": "0.1.0",
+    "nodemailer": "latest",
+    "cron": "latest",
+    "restify": "latest",
+    "string": "latest",
+    "validator": "latest",
+
+    "passport": "latest",
+    "passport-local": "latest",
+    "passport-facebook": "latest",
+    "passport-twitter": "latest",
+    "passport-google-oauth": "latest"
+  }
+}

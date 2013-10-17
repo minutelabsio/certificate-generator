@@ -1,0 +1,18 @@
+{
+    "mail" : {
+
+        "from": "noreply@minutephysics.com",
+        "replyTo": "info@minutephysics.com",
+        "subject": "Certificate",
+
+        "templateBase": "app/views/email/",
+
+        "smtp" : {
+            "service" : "Mandrill",
+            "auth" : {
+                "user" : "jasper@wellcaffeinated.net",
+                "pass" : "sHhBkHkX9Mt6ELiF5Ysa0Q"
+            }
+        }
+    }
+}
